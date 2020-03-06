@@ -64,6 +64,10 @@ This ia a summary of all the data in chickenData
 
 ### Inference -- Analysis of Variance
 
+```{r}
+model1=lm(weight~feed+speed+sex, data=chickenData)
+anova(model1)
+```
 
 
 ###  Conclusions  -- which variables affect chicken weight?
